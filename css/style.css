@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@600&display=swap');
+
+.jumbotron {
+    position: relative;
+    background: url(https://freedesignfile.com/upload/2017/12/Cubes-and-abstract-modern-backgrounds-vector-05.jpg);
+    color:#fff;
+    width: 100%;
+    height: 577px;
+    background-size: cover;
+    overflow: hidden;
+    background-size: cover;
+    padding-top: 150px;
+    margin-top: 56px;
+}
+
+.display-4 {
+    text-align: left;
+    font-weight: bolder;
+    font-family: 'Fira Sans', sans-serif;
+    line-height: 1;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@300&display=swap');
+
+.lead {
+    text-align: center;
+    font-family: 'Lemonada', cursive;
+    text-align: left;
+}
+
+.navbar-expand-lg {
+    background:  #0000ff; 
+}
+
+.navbar-brand {
+    color: whitesmoke;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 25px;
+    padding-left: 103px;
+}
+
+.navbar-nav {
+    left: auto !important;
+    right: 0px;
+    padding-right: 103px;
+}
+
+.navbar-nav .nav-item .nav-link{
+    color: white;
+}
+
+.navbar-nav .nav-item {
+    right: 0;
+}
+
+.nav-item .nav-link:hover {
+    color: #342ead;
+}
+
+.nav-item .nav-link:active {
+    color: #342ead;
+}
+
+#navbarNav {
+     text-align: center;
+}
+
+.tentang {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bolder;
+    color: #342ead;
+}
+
+.whoim {
+    font-size: 15px;
+    font-weight: bolder;
+    color: #342ead;
+}
+
+.item {
+    margin: 15px;
+    align-items: center;
+}
+
+figure, figcaption {
+    display: block;
+    }
+    #polaroid{
+    width:100%;
+    padding:0px 10px;
+    margin:auto;
+    text-align: center;
+    }
+    #polaroid figure{
+    position:relative;
+    width: auto;
+    max-width: 400px; /* Lebar maksimal gambar */
+    margin: 20px auto 0px;
+    padding: 6px 8px 10px 8px;
+    display:inline-block;
+    -webkit-box-shadow: 4px 4px 8px -4px rgba(0, 0, 0, .75);
+    -moz-box-shadow: 4px 4px 8px -4px rgba(0, 0, 0, .75);
+    box-shadow: 4px 4px 8px -4px rgba(0, 0, 0, .75);
+    background-color: #eee6d8;
+    -webkit-transform:rotate(-1deg);
+    -moz-transform: rotate(-1deg);
+    -o-transform: rotate(-1deg);
+    -ms-transform: rotate(-1deg);
+    transform: rotate(-1deg);
+    }
+
+    #polaroid figure:nth-child(even) {
+    margin:20px 18px 20px 25px;
+    -webkit-transform:rotate(2deg);
+    -moz-transform: rotate(2deg);
+    -o-transform: rotate(2deg);
+    -ms-transform: rotate(2deg);
+    transform: rotate(2deg);
+    -webkit-box-shadow: 4px 4px 8px -4px rgba(0, 0, 0, .75);
+    -moz-box-shadow: 4px 4px 8px -4px rgba(0, 0, 0, .75);
+    box-shadow: -4px 4px 8px -4px rgba(0, 0, 0, .75);
+    }
+
+    #polaroid figure:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 5px;
+    top: -10px;
+    width: 75px;
+    height: 25px;
+    z-index: 1;
+    background-color: rgba(222,220,198,0.7);
+    }
+    #polaroid figure:nth-child(even):before {
+    left:unset;
+    right:10px;
+    top:-10px;
+    width: 55px;
+    height: 25px;
+    z-index: 1;
+    
+    }
+    #polaroid img{
+    max-width: 100%;
+    width: 310px;
+    height: 350px;
+    }
+    #polaroid figcaption{
+    text-align:center;
+    font-family: cursive, Arial, Helvetica, sans-serif;
+    color:#454f40;
+    font-style:italic;
+    letter-spacing:0.09em;
+    margin-top:10px;
+    }
+
+.btn {
+    background: rgba(32,124,229,1);
+    border-radius: 100px;
+    box-shadow: 2px rgb(184, 184, 240);
+    color: whitesmoke;
+}
+
+.btn:hover {
+    border-radius: 100px;
+    background-color: rgb(20, 20, 95);
+    box-shadow: 2px rgb(184, 184, 240);
+    color: whitesmoke;
+}
+
+.btnku:hover {
+    border-bottom: solid 5px blue;
+}
+
+.project-item:hover {
+    width: 100%;
+    height: 100%;
+    background-color: blue; /* fallback color */
+    background-position: center;
+    background-size: cover;
+}
+
+.thumbnail:hover .over {
+    opacity: 0.6;
+}
+.img-thumbnail {
+    box-shadow: 9px 13px 27px -1px rgba(0,0,0,0.38);
+}
+
+.img-thumbnail:hover {
+    opacity: 0.6;
+}
+
+
+/* Media Query */
+@media (max-width: 576px) { 
+    .jumbotron {
+        position: relative;
+        background: url(https://freedesignfile.com/upload/2017/12/Cubes-and-abstract-modern-backgrounds-vector-05.jpg);
+        color:#fff;
+        width: 100%;
+        height: 396px;
+        background-size: cover;
+        overflow: hidden;
+        background-size: cover;
+        padding-top: 120px;
+        padding-left: 20px;
+    }
+
+    .display-4 {
+        text-align: left;
+        font-weight: bolder;
+        font-family: 'Fira Sans', sans-serif;
+        line-height: 1;
+        font-size: 35px;
+    }
+    
+    .lead {
+        text-align: center;
+        font-family: 'Lemonada', cursive;
+        text-align: left;
+    }
+
+    .name {
+        font-size: 18px;
+    }
+
+    .navbar-brand {
+        padding-left: 15px;
+    }
+
+    #polaroid img{
+        max-width: 100%;
+        width: 150px;
+        height: 150px;
+    }
+
+    .tentangku {
+        text-indent: 15px;
+        text-align: center;
+    }
+
+    .whoim {
+        display: none;
+    }
+
+    #navbarNav {
+        text-align: center;
+        padding-left: 100px;
+
+   }
+ }
+
+ @media (min-width: 992px) { 
+     .iconku {
+         display: none;
+     }
+  }
